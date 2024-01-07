@@ -1,0 +1,83 @@
+.banner {
+  display: flex;
+  /* display: grid; */
+  text-align: center;
+  font-family: Merriweather;
+  font-style: normal;
+  justify-content: center;
+  background-image: url(./images/Banner\ Image.png);
+  background-repeat: no-repeat;
+  width: 1320px;
+  height: 600px;
+  border-radius: 16px;
+  margin: 0 auto;
+  isolation: isolate;
+  overflow: hidden;
+  position: relative;
+}
+.banner::after {
+  content: "";
+  background: linear-gradient(180deg, #070211 0%, rgba(7, 2, 17, 0) 100%);
+  position: absolute;
+  top: 0;
+  right: 0;
+  height: inherit;
+  width: inherit;
+
+  z-index: -1;
+  margin: 0 auto;
+}
+.banner-info {
+  color: #fff;
+  top: 50%;
+  left: 50%;
+  position: absolute;
+  transform: translate(-50%, -50%);
+}
+.banner-greetings {
+  font-size: 32px;
+  margin: 0;
+  font-weight: 400;
+}
+.banner-title {
+  font-size: 72px;
+  font-weight: 900;
+  margin: 0px;
+  width: 632px;
+}
+.section-info-1 {
+  display: flex;
+  justify-content: center;
+  display: inline;
+}
+.section-elements-1 {
+  color: #f00;
+  text-align: center;
+  font-family: Inter;
+  font-size: 88px;
+  font-style: normal;
+  font-weight: 700;
+}
+.section-elements-2 {
+  color: #f00;
+  text-align: center;
+  font-family: Inter;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 500;
+}
+.section-elements-3 {
+  color: #070211;
+  text-align: center;
+  font-family: Inter;
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 700;
+}
+.section-image {
+  width: 802.9px;
+  height: 500px;
+  display: flex;
+  justify-content: center;
+  margin: 0 auto;
+}
