@@ -1,3 +1,8 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
 .banner {
   display: flex;
 
@@ -44,6 +49,9 @@
   font-weight: 900;
   margin: 0px;
   width: 632px;
+}
+.offers {
+  margin-bottom: 100px;
 }
 .section-info-1 {
   display: flex;
@@ -117,14 +125,16 @@
   font-weight: 400;
 }
 .button1 {
-  /* color: #fff; */
+  color: #fff;
   text-align: center;
   font-family: Inter;
   font-size: 20px;
-
+  background: none;
+  border: 0;
   font-weight: 700;
   line-height: normal;
   text-transform: uppercase;
+  cursor: pointer;
 }
 .section2-img {
   display: flex;
@@ -142,14 +152,16 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  fill: linear-gradient(
+  background: linear-gradient(
     180deg,
     rgba(255, 0, 0, 0.1) 0%,
     rgba(255, 0, 0, 0) 100%
   );
-  margin: 0 auto;
+  margin: 100px auto;
   font-family: Inter;
-  margin-top: 50px;
+  border-radius: 10px;
+  flex-direction: column;
+  gap: 50px;
 }
 .section3-elements {
   color: #070211;
@@ -174,6 +186,7 @@
   color: #fff;
   font-size: 20px;
   font-weight: 700;
+  border: 0;
 }
 .section4-info {
   display: flex;
@@ -225,9 +238,6 @@
   width: 364.844px;
   height: 364.844px;
   border-radius: 364.844px;
-
-  background: url(images/Ellipse\ 1.png),
-    lightgray -91.279px 0px / 150.038% 100% no-repeat;
 }
 .section4-elements3 {
   padding-left: 60px;
@@ -258,24 +268,12 @@
   height: 140px;
 }
 .section5 {
-  background: #fff;
-  display: flex;
-  display: inline;
-
+  margin: 100px auto;
   gap: 20px;
-  justify-content: center;
-  align-items: center;
-  margin-top: 30px;
-  width: 1600px;
-  height: 7335px;
+  width: 1320px;
 }
 .section5-elements1 {
-  display: flex;
-  display: inline;
-
-  justify-content: center;
-  justify-items: center;
-  margin: 0 auto;
+  gap: 20px;
 }
 .section5-elements1-info1 {
   color: #f00;
@@ -283,9 +281,6 @@
   font-size: 24px;
   font-style: normal;
   font-weight: 500;
-  display: flex;
-  justify-content: center;
-  justify-items: center;
 }
 
 .section5-elements1-info2 {
@@ -295,9 +290,6 @@
   font-style: normal;
   font-weight: 900;
   text-transform: capitalize;
-  display: flex;
-  justify-content: center;
-  justify-items: center;
 }
 
 .section5-elements1-info3 {
@@ -307,50 +299,52 @@
   font-size: 20px;
   font-style: normal;
   font-weight: 400;
-  justify-content: center;
-  justify-items: center;
-  margin: 0 auto;
 }
 
 .section5-elements2 {
-  display: flex;
-  display: inline;
-  width: 424px;
-  height: 450px;
   border-radius: 16px;
-  justify-content: center;
-  justify-items: center;
-  margin: 0 auto;
+  width: 100%;
+  flex-direction: column;
+  display: flex;
+  gap: 20px;
 }
 .row1 {
   display: flex;
-  justify-content: center;
-  justify-items: center;
-  margin: 0 auto;
+
+  gap: 20px;
 }
 
 .row2 {
   display: flex;
-  justify-content: center;
-  justify-items: center;
-  margin: 0 auto;
+  gap: 20px;
 }
 
 .section6 {
   width: 1320px;
   height: 616px;
   display: flex;
-
-  display: inline;
+  margin: 100px auto;
+  flex-direction: column;
   border-radius: 16px;
   background: rgba(255, 0, 0, 0.05);
+
+  gap: 40px;
+}
+.section6all {
+  display: grid;
+  place-content: center;
+  height: 100%;
 }
 .section6-elements1 {
   width: 150px;
   height: 150px;
-  display: flex;
-  justify-items: center;
+
   margin: 0 auto;
+}
+.section6-element2 {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
 }
 .section6-element2-info1 {
   color: #070211;
@@ -365,8 +359,7 @@
 .section6-element2-info2 {
   width: 896px;
   display: flex;
-  justify-content: center;
-  justify-items: center;
+
   color: rgba(7, 2, 17, 0.6);
   text-align: center;
   font-family: Inter;
@@ -379,70 +372,93 @@
   width: 648px;
   height: 72px;
   border-radius: 50px;
-  background: #fff;
   display: flex;
-  justify-content: center;
-  justify-items: center;
   margin: 0 auto;
 }
 .btn-field {
-  color: rgba(7, 2, 17, 0.3);
-  text-align: center;
-  font-family: Inter;
   font-size: 18px;
-  font-style: normal;
+  background: none;
   font-weight: 400;
-  line-height: normal;
+  height: 72px;
+  border: 0;
+  outline: 0;
+  width: 70%;
+  background-color: #fff;
+  padding-left: 20px;
+  border-top-left-radius: 50px;
+  border-bottom-left-radius: 50px;
+  font-size: 18px;
 }
 .button3 {
-  width: 210px;
-  height: 72px;
-
+  width: 30%;
+  height: inherit;
+  border: 0;
   border-radius: 0px 50px 50px 0px;
   background: #f00;
+  font-size: 20px;
+  color: #fff;
 }
-footer {
-  padding-top: 50px;
-  width: 1600px;
+.footer {
+  width: 100%;
   height: 609px;
-  flex-shrink: 0;
-  background: #070211;
+
+  display: grid;
+  place-content: center;
+  background: hsl(260, 79%, 4%);
+}
+.all-footer {
+  display: flex;
+
+  flex-direction: column;
+  gap: 50px;
+  width: 1320px;
   margin: 0 auto;
+  height: 100%;
+  /* padding: 100px 0; */
 }
 .footer-items1 {
   color: #fff;
-  font-family: Inter;
   font-size: 24px;
-  font-style: normal;
   font-weight: 500;
   display: flex;
+  align-items: center;
   justify-content: space-between;
 }
 
 .footer-icon1 {
-  width: 24px;
-  height: 24px;
-  /* display: flex; */
-  display: inline;
+  color: #fff;
+}
+.footer-icon1-both {
+  display: flex;
+  align-items: center;
+  gap: 10px;
 }
 
 .footer-social-icon {
-  display: flex;
+  color: #fff;
   list-style: none;
+  display: flex;
   justify-content: center;
-  justify-items: center;
+  align-items: center;
+  gap: 20px;
+  padding: 50px 0;
+  border-top: 1px solid rgba(255, 255, 255, 0.15);
+  border-bottom: 1px solid rgba(255, 255, 255, 0.15);
 }
-hr {
-  width: 1320px;
-  height: 1px;
+.icon {
+  width: 24px;
+  /* height: 24px; */
 }
+
 .footer-items2 {
+  color: #fff;
   display: flex;
   justify-content: space-between;
-  color: #fff;
-  font-family: Inter;
-  font-size: 24px;
-  font-style: normal;
-  font-weight: 500;
-  line-height: normal;
+}
+.text {
+  margin: 0;
+}
+hr {
+  height: 1px;
+  background-color: #f00;
 }
