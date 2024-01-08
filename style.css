@@ -281,7 +281,12 @@
   font-size: 24px;
   font-style: normal;
   font-weight: 500;
+  display: flex;
+  justify-content: center;
+  justify-items: center;
+  margin: 0 auto;
 }
+
 .section5-elements1-info2 {
   color: #070211;
   font-family: Merriweather;
@@ -289,7 +294,12 @@
   font-style: normal;
   font-weight: 900;
   text-transform: capitalize;
+  display: flex;
+  justify-content: center;
+  justify-items: center;
+  margin: 0 auto;
 }
+
 .section5-elements1-info3 {
   width: 896px;
   color: rgba(7, 2, 17, 0.6);
@@ -297,6 +307,9 @@
   font-size: 20px;
   font-style: normal;
   font-weight: 400;
+  justify-content: center;
+  justify-items: center;
+  margin: 0 auto;
 }
 
 .section5-elements2 {
@@ -305,10 +318,86 @@
   width: 424px;
   height: 450px;
   border-radius: 16px;
+  justify-content: center;
+  justify-items: center;
+  margin: 0 auto;
 }
 .row1 {
   display: flex;
+  justify-content: center;
+  justify-items: center;
+  margin: 0 auto;
 }
+
 .row2 {
   display: flex;
+  justify-content: center;
+  justify-items: center;
+  margin: 0 auto;
+}
+
+.section6 {
+  width: 1320px;
+  height: 616px;
+  display: flex;
+
+  display: inline;
+  border-radius: 16px;
+  background: rgba(255, 0, 0, 0.05);
+}
+.section6-elements1 {
+  width: 150px;
+  height: 150px;
+  display: flex;
+  justify-items: center;
+  margin: 0 auto;
+}
+.section6-element2-info1 {
+  color: #070211;
+  text-align: center;
+  font-family: Merriweather;
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 900;
+  line-height: normal;
+  text-transform: capitalize;
+}
+.section6-element2-info2 {
+  width: 896px;
+  display: flex;
+  justify-content: center;
+  justify-items: center;
+  color: rgba(7, 2, 17, 0.6);
+  text-align: center;
+  font-family: Inter;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  margin: 0 auto;
+}
+.section6-element3 {
+  width: 648px;
+  height: 72px;
+  border-radius: 50px;
+  background: #fff;
+  display: flex;
+  justify-content: center;
+  justify-items: center;
+  margin: 0 auto;
+}
+.btn-field {
+  color: rgba(7, 2, 17, 0.3);
+  text-align: center;
+  font-family: Inter;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+.button3 {
+  width: 210px;
+  height: 72px;
+
+  border-radius: 0px 50px 50px 0px;
+  background: #f00;
 }
