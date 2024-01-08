@@ -148,16 +148,20 @@
     rgba(255, 0, 0, 0) 100%
   );
   margin: 0 auto;
+  font-family: Inter;
+  margin-top: 50px;
 }
 .section3-elements {
   color: #070211;
-  font-family: Inter;
+  text-align: center;
+
   font-size: 32px;
   font-style: normal;
   font-weight: 600;
   line-height: 56px;
   text-transform: capitalize;
   align-items: center;
+  list-style: none;
 }
 .button2 {
   display: inline-flex;
@@ -165,5 +169,91 @@
   justify-content: center;
   align-items: center;
   gap: 10px;
-  color: #ff0000;
+  border-radius: 8px;
+  background: #f00;
+  color: #fff;
+  font-size: 20px;
+  font-weight: 700;
+}
+.section4-info {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.section4-elements1 {
+  display: flex;
+  display: inline;
+  justify-content: center;
+  align-items: center;
+}
+
+.section4-elements-info1 {
+  color: #f00;
+
+  font-family: Inter;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 500;
+}
+.section4-elements-info2 {
+  color: #070211;
+  font-family: Merriweather;
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 900;
+  line-height: normal;
+  text-transform: capitalize;
+}
+.section4-elements-info3 {
+  width: 393px;
+  color: rgba(7, 2, 17, 0.6);
+  font-family: Inter;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+}
+.section4-elements2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 463px;
+  height: 463px;
+  border-radius: 463px;
+  border: 15px solid #f00;
+}
+.section4-elements2-pic1 {
+  width: 364.844px;
+  height: 364.844px;
+  border-radius: 364.844px;
+
+  background: url(images/Ellipse\ 1.png),
+    lightgray -91.279px 0px / 150.038% 100% no-repeat;
+}
+.section4-elements3 {
+  padding-left: 60px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  display: inline;
+}
+.section4-elements3-info1 {
+  color: #f00;
+  font-family: Inter;
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+.section4-elements3-info2 {
+  width: 276px;
+  color: rgba(7, 2, 17, 0.6);
+  font-family: Inter;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 32px;
+}
+.section4-elements3-info3 {
+  width: 140px;
+  height: 140px;
 }
